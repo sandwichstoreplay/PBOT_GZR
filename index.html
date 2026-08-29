@@ -30,6 +30,8 @@
     height: 120px;
 }
 
+a{ color: #0b1220; text-decoration:none; background:#ffff97; padding: 3px 6px; border-radius: 3px; margin-top:6px; display: inline-block; }
+
   :root{
     --bg-deep:#0b1220;
     --bg-panel:#111a2b;
@@ -72,7 +74,7 @@ cursor: wait !important;
     display:flex;
     min-height:100vh;
    /* gap:20px;*/
-    padding:12px;
+    padding:0 12px;
   }
   .red{ color: blue !important }
   .red_2{ color: red !important }
@@ -97,7 +99,7 @@ cursor: wait !important;
     gap:8px;
   }
 .map-header h1 {
-    font-size: 48px;
+    font-size: 36px;
     margin: 0;
     font-weight: bold;
     /* letter-spacing: 0.3px; */
@@ -410,7 +412,7 @@ display: grid;
   <div class="map-wrap">
     <div class="map-header">
       <h1>PBOT GZR</h1>
-      <span class="hint">Croquis Interactivo: <span class="red_2">Active</span> o <span class="red_2">desactive PREDIOS o VÍAS</span> para evaluar opciones.<br>Actualmente <span class="red">existen 126</span> predios que funcionan como <span class="red">sitios de rumba</span>, <span class="red">98</span> de los cuales <span class="red">son realmente bares</span> (Rango de error 2%). Existen 2 bares en Guacanas - no incluidos en los 126. <br>En la <span class="red">Zona de color</span> solo <span class="red">33</span> predios <span class="red">son</span> dedicados <span class="red">100%</span> a <span class="red">vivienda</span> y hay otros 9 predios combinados.<br>Los datos anteriores son aproximaciones y no constituyen cifras oficiales; el mapa y las medidas de cada predio son directamente sacadas de Catastro Municipal.</span>
+      <span class="hint">Croquis Interactivo: <span class="red_2">Active</span> o <span class="red_2">desactive PREDIOS o VÍAS</span> para evaluar opciones.<br>Actualmente <span class="red">existen 126</span> predios que funcionan como <span class="red">sitios de rumba</span>, <span class="red">98</span> de los cuales <span class="red">son realmente bares</span> (Rango de error 2%). Existen 2 bares en Guacanas - no incluidos en los 126. <br>En la <span class="red">Zona de color</span> solo <span class="red">33</span> predios <span class="red">son</span> dedicados <span class="red">100%</span> a <span class="red">vivienda</span> y hay otros 9 predios combinados.<br>Los datos anteriores son aproximaciones y no constituyen cifras oficiales; el mapa y las medidas de cada predio son directamente sacadas de Catastro Municipal.<br>De los 156 predios, solo 120 predios tiene 80mt² o más; 36 predios tienen un área menor.<br><a href="/razontecnica.png" target="blank">Click aquí para ver la Razón Técnica - Consejo de Estado</a></span>
     </div>
     <div class="map-canvas" id="mapCanvas">
       <div class="zoom-controls">
